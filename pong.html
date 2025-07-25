@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    canvas{
+        width: 800px;
+        height: 600px;
+        background-color: black;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(175, 162, 187);
+    }
+    .paragraph{
+        text-align: center;
+}
+</style>
+<body>
+    <h1 class="paragraph">Ping Pong</h1>
+    <canvas id="gameboard" width="800" height="600"></canvas>
+    <h3 class="paragraph">How to play the game: Move your paddle using the right and left arrow key and don't let the ball miss the paddle</h3>
+</body>
+<script src="pong.js"></script>
+</html>
